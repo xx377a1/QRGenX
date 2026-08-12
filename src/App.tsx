@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { QRCodeCanvas, QRCodeSVG } from 'qrcode.react';
 import { Download, History, Palette, Image as ImageIcon, Trash2, RotateCcw, Moon, Sun } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { QRCodeConfig } from './types';
 
 export default function App() {
@@ -383,6 +384,7 @@ export default function App() {
           </div>
         )}
       </main>
+      <Analytics />
     </div>
   );
 }
