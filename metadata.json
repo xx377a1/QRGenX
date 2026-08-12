@@ -1,0 +1,6 @@
+{
+  "name": "QRGenX",
+  "description": "A tool to generate, customize, and download QR codes with history logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
